@@ -1,10 +1,10 @@
 package app;
 
 public class CalcCostDelivery extends CalcCostBase{
-    private final static double deliveryPrise = 12.0;
+    private final static double DELIVERPRISE = 12.0;
 
     public static double getDeliveryPrise() {
-        return deliveryPrise;
+        return DELIVERPRISE;
     }
 
     public double calsCost (Product product){
